@@ -3,10 +3,10 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
-trigger:
+pr:
  paths:
    include:
-   - src/main/java/com/microsoft/demo
+   - src/main
 
 pool:
   vmImage: ubuntu-latest
