@@ -5,8 +5,6 @@
 
 trigger:
  paths:
-   include:
-     - src/main/java/com/microsoft/demo
    exclude:
      - src
 
