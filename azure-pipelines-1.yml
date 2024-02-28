@@ -8,8 +8,15 @@ trigger:
    include:
      - main
  paths:
-   exclude:
-     - src
+   include:
+     - src/main
+pr:
+ branches:
+   include:
+     - main
+ paths:
+   include:
+     - src/main
 
 pool:
   vmImage: ubuntu-latest
